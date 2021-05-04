@@ -156,13 +156,13 @@ def make_plot(file_name):
     )
     time_committee_member_late = defense_date.replace(hour=9, minute=35)
     ax.annotate(
-        'Final committee\nmember late',
+        'Final committee\nmember joins',
         xy=(time_committee_member_late, 109),
         xytext=(time_committee_member_late, 90),
         **annotation_kwargs
     )
     ax.annotate(
-        'Quorum attained,\nPresentation begins', 
+        'Presentation begins', 
         xy=(time_presentation_start, 149),
         xytext=(time_presentation_start, 170),
         **annotation_kwargs
