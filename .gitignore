@@ -1,0 +1,4 @@
+.DS_Store
+examples.yaml
+__pycache__/
+apple_health_export/
